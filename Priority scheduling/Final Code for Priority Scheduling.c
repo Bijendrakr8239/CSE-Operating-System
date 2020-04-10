@@ -62,7 +62,7 @@ void main()
     }
     avgwtime=(float)totwaittime/n;
     avgtatime=(float)totturnaround/n;
-    printf("\nProcess Name\tArrival Time\t\tBurst Time\tPriority\t\tWaiting Time\tTurnAround Time");
+    printf("\nProcess Name\tArrival Time\t\tBurst Time\t\tPriority\t\tWaiting Time\tTurnAround Time");
     for(i=0; i<n; i++)
         printf("\n%s\t\t%5d\t\t\t%5d\t\t%5d\t\t\t%5d\t\t%5d",pn[i],at[i],et[i],p[i],wt[i],ta[i]);
     printf("\nAverage Waiting Time is:%f",avgwtime);
