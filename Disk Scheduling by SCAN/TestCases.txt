@@ -1,0 +1,33 @@
+Test Cases:
+
+Input
+
+Enter The Maximum Range Of Disk : 4999
+Enter The Current Head Position : 143
+Enter The Size Of Queue : 9
+Enter The Queue Of Pending Requests in FIFO Order :
+86
+1470
+913
+1774
+948
+1509
+1022
+1750
+130
+
+Output
+
+Disk head moves from  143  to  913  with seek value  770
+Disk head moves from  913  to  948  with seek value  35
+Disk head moves from  948  to  1022  with seek value  74
+Disk head moves from  1022  to  1470  with seek value  448
+Disk head moves from  1470  to  1509  with seek value  39
+Disk head moves from  1509  to  1750  with seek value  241
+Disk head moves from  1750  to  1774  with seek value  24
+Disk head moves from  1774  to  4999  with seek value  3225
+Disk head moves from  4999  to  130  with seek value  4869
+Disk head moves from  130  to  86  with seek value  44
+Disk head moves from  86  to  0  with seek value  86
+Total seek time is : 9855
+Average seek time is : 1095.000000
